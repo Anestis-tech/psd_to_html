@@ -1,20 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
 }
 
 h1 {
-    font-size: 15px;
+  font-size: 15px;
 }
-
 
 /* List elements */
 li {
-    display: block; 
-    float: left;
-  }
-  
+  display: block;
+  float: left;
+}
+
 /* a elements for navbar*/
 a {
   display: block;
@@ -23,28 +22,28 @@ a {
 }
 
 /* Headline */
-h2 { 
-    display: flex; 
-    justify-content: center;
+h2 {
+  display: flex;
+  justify-content: center;
 }
 
-/* Click here button */ 
+/* Click here button */
 .button {
-    border: none;
-    color: turquoise;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
+  border: none;
+  color: turquoise;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 #watch-section {
-    background-image: url('bgk-middle.png');
-    height: 400px;
-  }
+  background-image: url("bgk-middle.png");
+  height: 400px;
+}
 
 #logo {
   width: 150px;
@@ -60,4 +59,48 @@ h2 {
   float: left;
   text-align: left;
   margin-right: 100px;
+}
+
+#footer {
+  width: 100vw;
+  height: 400px;
+  background-color: aqua;
+  background-image: url("./bgk-footer.png");
+  background-size: 100% auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.226);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-el {
+  width: 200px;
+  flex-grow: 1;
+}
+
+.icon-ctn {
+  display: flex;
+}
+
+.icon-ctn > img {
+  width: 14px;
+  height: 14px;
+}
+
+#site-footer-disclaimer {
+  display: flex;
+  justify-content: space-between;
 }
