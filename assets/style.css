@@ -52,7 +52,7 @@ h2 {
   height: 400px;
   background-color: aqua;
   background-image: url("./bgk-footer.png");
-  background-size: 100% auto;
+  background-size: cover;
 
   display: flex;
   justify-content: space-around;
