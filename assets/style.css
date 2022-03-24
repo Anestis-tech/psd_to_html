@@ -23,7 +23,6 @@ a {
 }
 
 /* Headline */
-/
 h2 { 
     display: flex; 
     justify-content: center;
@@ -42,3 +41,23 @@ h2 {
     cursor: pointer;
   }
   
+#watch-section {
+    background-image: url('bgk-middle.png');
+    height: 400px;
+  }
+
+#logo {
+  width: 150px;
+  float: left;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+}
+
+#our-story {
+  height: 400px;
+  float: left;
+  text-align: left;
+  margin-right: 100px;
+}
