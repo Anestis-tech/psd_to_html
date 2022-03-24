@@ -130,7 +130,8 @@ btn {
 
 .btn span.icon {
   background: url(./png/paper122.png) no-repeat;
-  float: left;
+  /* float: left; */
+  background-position: center;
   background-color: white;
   width: 70px;
   height: 65px;
@@ -146,4 +147,10 @@ btn {
 #footer-social-media > img {
   height: 35px;
   margin: 8px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
