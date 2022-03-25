@@ -9,11 +9,11 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* Set image as backgroud */ 
 
+/* Set image as backgroud */ 
 .hero-image {
   /*background-image: url("/Anestis-tech/psd_to_html/blob/main/assets/bgk-header.png?raw=true" );*/
-    background-image: url("https://github.com/Anestis-tech/psd_to_html/blob/main/assets/bgk-header.png?raw=true");
+    background-image: url("assets/bgk-header.png");
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
