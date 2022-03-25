@@ -47,6 +47,11 @@ h2 {
   height: 400px;
 }
 
+#watch-section {
+  background-image: url("bgk-middle.png");
+  height: 400px;
+}
+
 #footer {
   width: 100vw;
   height: 400px;
@@ -157,4 +162,41 @@ btn {
 
 #site-footer-disclaimer > a {
   background-color: unset;
+  float: left;
+  text-align: left;
+  margin-right: 100px;
+}
+
+#expertise {
+  height: 755px;
+  width: auto;
+}
+
+#expertise-title {
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.expertise-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#expertise-el {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  height: 180px;
+  width: 255px;
+  margin: 30px;
+}
+
+#expertise-el > h3 {
+  font-family: "Robot Black";
+  font-size: 14px;
 }
