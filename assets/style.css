@@ -158,3 +158,9 @@ btn {
 #site-footer-disclaimer > a {
   background-color: unset;
 }
+
+.contact-form-inputbox
+{
+  display: flex;
+  align-items: left;
+}
