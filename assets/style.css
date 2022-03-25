@@ -30,34 +30,63 @@ h2 {
 
 /* Click here button */ 
 .button {
-    border: none;
-    color: turquoise;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
-#watch-section {
-    background-image: url('bgk-middle.png');
-    height: 400px;
-  }
-
-#logo {
-  width: 150px;
-  float: left;
-  margin-top: 60px;
-  margin-left: 100px;
-  margin-right: 50px;
-  margin-bottom: 60px;
+  border: none;
+  color: turquoise;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-#our-story {
+.OurStory {
   height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.OurStory-Text {
   float: left;
-  text-align: left;
-  margin-right: 100px;
+
+}
+
+
+.logo {
+  float: left;
+  margin-right: 50px;
+}  
+
+.overlay-playButton {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  top: 600px;
+  left: 400px;
+
+}
+
+.overlay-title {
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  color: white;
+  
+}
+
+
+.image {
+  position: relative;
+  width: 400px;
+}
+
+.backgroundMiddle {
+  background-image: url("./bgk-middle.png");
+  background-repeat: no-repeat;
+	background-size: contain;
+  height: 550px;
+
 }
