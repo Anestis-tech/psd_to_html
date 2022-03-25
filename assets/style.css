@@ -154,3 +154,7 @@ btn {
   align-items: center;
   justify-content: center;
 }
+
+#site-footer-disclaimer > a {
+  background-color: unset;
+}
